@@ -17,8 +17,9 @@ import {
   AccountCircleOutlined,
   StoreOutlined,
 } from "@mui/icons-material";
+import { JSX } from "react";
 
-const Navigation = () => {
+const Navigation = (): JSX.Element => {
   const pathName = usePathname();
   const theme = createTheme();
 
